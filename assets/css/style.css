@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #d47a46;
+  background: #106eea;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.8);
   padding-left: 15px;
   display: inline-block;
   line-height: 1px;
@@ -150,13 +150,13 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: black;
+  background: white;
   transition: all 0.5s;
   z-index: 997;
   padding: 25px 0;
   top: 40px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  color: white;
+  color: black;
 }
 
 #header.header-scrolled {
@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #dee2e6;
+  color: black;
 }
 
 #header .logo a span {
@@ -219,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #dee2e6;
+  color: #106eea;
   transition: 0.3s;
   font-size: 15px;
   font-weight: 600;
@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #e8651a;
+  background-color: #106eea;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -245,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #e8651a;
+  color: #106eea;
 }
 /* Mobile Navigation */
 .mobile-nav-toggle {
