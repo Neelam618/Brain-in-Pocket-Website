@@ -267,7 +267,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #d47a46;
+  color: #262f4a;
 }
 
 .mobile-nav {
@@ -364,6 +364,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 75vh;
   background: url("../img/hero-bg.jpg")center;
+  background-attachment: fixed;
   background-size: cover;
   position: relative;
 }
@@ -385,7 +386,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 992px) {
   #hero .container {
-    padding-top: 58px;
+    /*padding-top: 58px;*/
   }
 }
 
@@ -394,7 +395,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #a6afba;
+  color: #262f4a;
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
@@ -456,13 +457,6 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-watch-video:hover i {
   color: #3b8af2;
 }
-
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-
 @media (max-width: 1200px) {
   #hero {
     height: 100vh;
