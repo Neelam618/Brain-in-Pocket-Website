@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled {
   top: 0;
-  padding: 15px;
+/*  padding: 15px;*/
 }
 
 #header .logo {
@@ -184,9 +184,9 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   left: 0;
   margin-bottom: -80px;
-  padding-top: 20px;
+  padding-top: 25px;
 }
-#header .container{
+#header .container-fluid{
   height: 90px;
 }
 @media (max-width: 992px) {
