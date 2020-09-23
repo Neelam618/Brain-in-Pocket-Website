@@ -190,15 +190,30 @@ h1, h2, h3, h4, h5, h6 {
   height: 90px;
 }
 @media (max-width: 992px) {
+  .logo-img{
+    margin: 0px;
+    width: 100px;
+    padding: 7px;
+  }
+  .container-fluid{
+    padding-left: 0;
+  }
   #header {
-    padding: 15px;
+    padding: 0px;
     top: 0;
   }
   #header .logo {
-    font-size: 28px;
+    font-size: 22px;
+    margin-left: 5px;
   }
 }
-
+@media (max-width: 322px) {
+  #header .logo{
+    position: relative;
+    top:20px;
+    margin-left: 0px;
+  }
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -267,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #262f4a;
+  color: rgba(91, 102, 138, 0.2);
 }
 
 .mobile-nav {
@@ -371,7 +386,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(50, 90, 255, 0.1);
+  background: rgba(200, 200, 255, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -457,10 +472,15 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-watch-video:hover i {
   color: #3b8af2;
 }
+ #hero .btn-get-started, #hero .btn-watch-video {
+    font-size: 13px;
+}
+
 @media (max-width: 1200px) {
   #hero {
     height: 100vh;
   }
+}
   @media (max-width: 992px) {
     #hero h1{
       font-size: 44px;
@@ -468,7 +488,7 @@ h1, h2, h3, h4, h5, h6 {
     #hero h2{
       font-size: 18px;
     }
-  }
+}
    @media (max-width: 768px) {
     #hero h1{
       font-size: 38px;
@@ -476,7 +496,7 @@ h1, h2, h3, h4, h5, h6 {
     #hero h2{
       font-size: 14px;
     }
-  }
+}
  @media (max-width: 576px) {
     #hero h1{
       font-size: 32px;
@@ -487,13 +507,14 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 12px;
       text-align: left;
     }
-
-  }
-  #hero .btn-get-started, #hero .btn-watch-video {
-    font-size: 13px;
+}
+@media (max-width: 350px) {
+  #hero .btn-get-started{
+    font-size: 9.5px;
+    padding: 5px;
   }
 }
-
+ 
 @media (max-height: 500px) {
   #hero {
     height: 120vh;
