@@ -472,10 +472,15 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-watch-video:hover i {
   color: #3b8af2;
 }
+ #hero .btn-get-started, #hero .btn-watch-video {
+    font-size: 13px;
+}
+
 @media (max-width: 1200px) {
   #hero {
     height: 100vh;
   }
+}
   @media (max-width: 992px) {
     #hero h1{
       font-size: 44px;
@@ -483,7 +488,7 @@ h1, h2, h3, h4, h5, h6 {
     #hero h2{
       font-size: 18px;
     }
-  }
+}
    @media (max-width: 768px) {
     #hero h1{
       font-size: 38px;
@@ -491,7 +496,7 @@ h1, h2, h3, h4, h5, h6 {
     #hero h2{
       font-size: 14px;
     }
-  }
+}
  @media (max-width: 576px) {
     #hero h1{
       font-size: 32px;
@@ -502,13 +507,14 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 12px;
       text-align: left;
     }
-
-  }
-  #hero .btn-get-started, #hero .btn-watch-video {
-    font-size: 13px;
+}
+@media (max-width: 350px) {
+  #hero .btn-get-started{
+    font-size: 9.5px;
+    padding: 5px;
   }
 }
-
+ 
 @media (max-height: 500px) {
   #hero {
     height: 120vh;
