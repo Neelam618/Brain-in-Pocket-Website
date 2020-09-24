@@ -523,6 +523,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 9.5px;
     padding: 5px;
   }
+  #hero{
+    background-attachment: initial;
+  }
 }
  
 @media (max-height: 500px) {
