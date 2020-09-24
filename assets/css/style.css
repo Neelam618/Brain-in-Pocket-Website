@@ -540,6 +540,15 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1375px) {
+  #about .section-title, #services .row, #contact .row{
+    width: 75%;
+    margin:0 auto;
+  }
+}
+
+
+
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -554,7 +563,7 @@ section {
   padding-bottom: 30px;
 }
 
-.section-title h2 {
+/*.section-title h2 {
   font-size: 13px;
   letter-spacing: 1px;
   font-weight: 700;
@@ -565,7 +574,7 @@ section {
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
-}
+}*/
 
 .section-title h3 {
   margin: 15px 0 0 0;
@@ -587,6 +596,7 @@ section {
     width: 70%;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -651,14 +661,14 @@ section {
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
-.featured-services .icon-box {
+/*.featured-services .icon-box {
   padding: 30px;
   position: relative;
   overflow: auto;
   background: #fff;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
   /*transition: all 0.3s ease-in-out;*/
-  border-radius: 8px;
+  /*border-radius: 8px;
   z-index: 1;
   transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
   transition-duration: 0.5s;
@@ -666,7 +676,7 @@ section {
 }
 .featured-services .icon-box:hover{
   transform: scale(1.2);
-}
+}*/
 /*.featured-services .icon-box::before {
   content: '';
   position: absolute;
@@ -685,7 +695,7 @@ section {
   border-radius: 0px;
 }*/
 
-.featured-services .icon {
+/*.featured-services .icon {
   margin-bottom: 15px;
 }
 
@@ -710,7 +720,7 @@ section {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
-}
+}*/
 
 /*.featured-services .icon-box:hover .title a, .featured-services .icon-box:hover .description {
   color: #fff;
@@ -769,7 +779,7 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills .progress {
+/*.skills .progress {
   height: 50px;
   display: block;
   background: none;
@@ -799,7 +809,7 @@ section {
   height: 10px;
   transition: .9s;
   background-color: #106eea;
-}
+}*/
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
