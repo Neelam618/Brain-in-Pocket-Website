@@ -189,6 +189,18 @@ h1, h2, h3, h4, h5, h6 {
 #header .container-fluid{
   height: 90px;
 }
+@media (max-width: 1560px){
+  .logo-img{
+    width: 150px;
+    margin-bottom: -40px;
+  }
+}
+@media (max-width: 1439px){
+  .logo-img{
+    width: 120px;
+    margin-bottom: -15px;
+  }
+}
 @media (max-width: 992px) {
   .logo-img{
     margin: 0px;
@@ -207,8 +219,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 5px;
   }
 }
+
+.container-fluid{
+  padding-left: 5px;
+}
 @media (max-width: 322px) {
-  #header .logo{
+  #header .logo{  
     position: relative;
     top:20px;
     margin-left: 0px;
@@ -399,12 +415,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 132px;
 }
 
-@media (max-width: 992px) {
-  #hero .container {
-    /*padding-top: 58px;*/
-  }
-}
-
 #hero h1 {
   margin: 0;
   font-size: 48px;
@@ -513,6 +523,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 9.5px;
     padding: 5px;
   }
+  #hero{
+    background-attachment: initial;
+  }
 }
  
 @media (max-height: 500px) {
@@ -524,6 +537,15 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1375px) {
+  #about .section-title, #services .row, #contact .row{
+    width: 80%;
+    margin:0 auto;
+  }
+}
+
+
+
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -538,7 +560,7 @@ section {
   padding-bottom: 30px;
 }
 
-.section-title h2 {
+/*.section-title h2 {
   font-size: 13px;
   letter-spacing: 1px;
   font-weight: 700;
@@ -549,7 +571,7 @@ section {
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
-}
+}*/
 
 .section-title h3 {
   margin: 15px 0 0 0;
@@ -569,6 +591,14 @@ section {
 @media (min-width: 1024px) {
   .section-title p {
     width: 70%;
+  }
+}
+@media (max-width: 576px){
+  .section-title p{
+    font-size: 13px;
+  }
+  .section-title h3{
+    font-size: 26 px;
   }
 }
 
@@ -635,14 +665,14 @@ section {
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
-.featured-services .icon-box {
+/*.featured-services .icon-box {
   padding: 30px;
   position: relative;
   overflow: auto;
   background: #fff;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
   /*transition: all 0.3s ease-in-out;*/
-  border-radius: 8px;
+  /*border-radius: 8px;
   z-index: 1;
   transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
   transition-duration: 0.5s;
@@ -650,7 +680,7 @@ section {
 }
 .featured-services .icon-box:hover{
   transform: scale(1.2);
-}
+}*/
 /*.featured-services .icon-box::before {
   content: '';
   position: absolute;
@@ -669,7 +699,7 @@ section {
   border-radius: 0px;
 }*/
 
-.featured-services .icon {
+/*.featured-services .icon {
   margin-bottom: 15px;
 }
 
@@ -694,7 +724,7 @@ section {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
-}
+}*/
 
 /*.featured-services .icon-box:hover .title a, .featured-services .icon-box:hover .description {
   color: #fff;
@@ -753,7 +783,7 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills .progress {
+/*.skills .progress {
   height: 50px;
   display: block;
   background: none;
@@ -783,7 +813,7 @@ section {
   height: 10px;
   transition: .9s;
   background-color: #106eea;
-}
+}*/
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -1056,6 +1086,7 @@ section {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  line-height: 1.5;
 }
 
 #footer .footer-top .footer-links ul li:first-child {
@@ -1066,7 +1097,6 @@ section {
   color: #777777;
   transition: 0.3s;
   display: inline-block;
-  line-height: 1;
 }
 
 #footer .footer-top .footer-links ul a:hover {
