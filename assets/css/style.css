@@ -872,7 +872,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services{
-  background-color: #fbfbfb;
+  background-color: #e6dfec;
 }
 .services .icon-box {
   text-align: center;
@@ -939,11 +939,18 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+form{
+  background-color: white;
+}
+#contact{
+  background-color: #f7f5f9;
+}
 .contact .info-box {
   color: #444444;
   text-align: center;
   box-shadow: 0 0 30px #f5ebeb;
   padding: 20px 0 30px 0;
+  background-color: white;
 }
 
 .contact .info-box i {
