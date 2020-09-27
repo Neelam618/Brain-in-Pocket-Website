@@ -853,6 +853,9 @@ section {
   color: #062b5b;
   font-family: 'Fira Sans', sans-serif;
 }
+.counts .count-box span a{
+  margin:0 auto;
+}
 
 .counts .count-box p {
   padding: 0;
