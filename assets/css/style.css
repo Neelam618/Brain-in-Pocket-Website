@@ -860,6 +860,10 @@ section {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
+.visitors{
+  position: relative;
+  top: 2px;
+}
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -963,7 +967,14 @@ section {
   font-size: 14px;
   margin-bottom: 0;
 }
+.contact .info-box a {
+  color: black;
+}
 
+.contact .info-box a:hover{
+  text-decoration: underline;
+  color: #db5c7a;
+}
 .contact .php-email-form {
   box-shadow: 0 0 30px #f5ebeb;
   padding: 30px;
@@ -971,16 +982,16 @@ section {
 
 .contact .php-email-form .validate {
   display: none;
-  color: white;
+  color: red;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
 }
 
-/*.contact .php-email-form .error-message br + br {
+.contact .php-email-form .error-message br + br {
   margin-top: 25px;
-}*/
-/*
+}
+
 .contact .php-email-form .sent-message {
   display: none;
   color: black;
@@ -988,7 +999,7 @@ section {
   text-align: center;
   padding: 15px;
   font-weight: 600;
-}*/
+}
 
 .contact .php-email-form .loading {
   display: none;
@@ -1184,7 +1195,9 @@ section {
   color: #444444;
   opacity: 0.04;
 }
-
+.footer-contact a:hover{
+  text-decoration: underline;
+}
 @media (max-width: 768px) {
   #footer .copyright, #footer .credits {
     float: none;
