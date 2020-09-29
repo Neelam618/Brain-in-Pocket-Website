@@ -4,6 +4,7 @@
 This website is about the startup business called Brain2pocket for professional business solutions. It showcases different services they offer.
 
 It is built from template from BootstrapMade with few modifications.
+Deployed by using Netlify.
 
 Staging link: https://neelam618.github.io/Brain-in-Pocket-Website/
 
