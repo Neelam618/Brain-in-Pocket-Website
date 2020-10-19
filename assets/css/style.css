@@ -795,7 +795,7 @@ section {
   border: 2px solid pink;
 }
 .counts .count-box span img{
-  opacity: 0.8;
+  width: 50px;
 }
 
 .counts .count-box i {
@@ -803,7 +803,7 @@ section {
   top: -28px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 24px;
+  font-size: 20px;
   background: #5814a6;
   padding: 12px;
   color: #fff;
@@ -815,11 +815,13 @@ section {
   font-size: 30px;
   display: block;
   font-weight: 600;
-  color: #062b5b;
-  font-family: 'Fira Sans', sans-serif;
+  color: #000000;
+  font-family: 'Barlow', sans-serif;
 }
 .counts .count-box span a{
   margin:0 auto;
+  display: inline;
+  font-size: 30px;
 }
 
 .counts .count-box p {
