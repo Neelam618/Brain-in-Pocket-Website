@@ -6,6 +6,9 @@ This website is about the startup business called Brain2pocket for professional 
 It is built from template from BootstrapMade with few modifications.
 Deployed by using Netlify.
 
+command used to minify CSS source file into minified file:  
+csso style.css --output style-min.css
+
 Staging link: https://neelam618.github.io/Brain-in-Pocket-Website/
 
 Check out the website here: https://brain2pocket.in/
