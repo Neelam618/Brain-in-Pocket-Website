@@ -681,6 +681,7 @@ section {
 }
 .featured-services .icon-box:hover{
   transform: scale(1.03);
+  cursor: pointer;
 }
 .featured-services .icon-box::before {
   content: '';
@@ -1167,4 +1168,35 @@ form{
     text-align: center;
     padding: 2px 0;
   }
+}
+
+/* Modal */
+.modal-card {
+
+}
+
+.modal-card:hover{
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.modal-card::before {
+  content: '';
+  position: absolute;
+  background: #cbe0fb;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.1s;
+  z-index: -1;
+}
+
+.modal-card::before {
+  background: #106eea;
+  top: 0;
+  border-radius: 0px;
+}
+
+.modal-card:hover .card-title.text-primary, .modal-card:hover .card-text {
+  color: white !important;
 }
