@@ -217,12 +217,6 @@
   }
   $(window).on('load', function() {
     aos_init();
-    setTimeout(() => {
-      let counterDiv = document.getElementById('dupli_hit_counter');
-      if(counterDiv && !counterDiv.innerText){
-        counterDiv.innerText = 1486;
-      }
-  }, 2000);
   });
 
 })(jQuery);

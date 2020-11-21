@@ -1157,15 +1157,6 @@ form{
 #footer .copyright {
   text-align: center;
   float: left;
-  opacity: 0.04;
-}
-
-#footer .credits {
-  float: right;
-  text-align: center;
-  font-size: 13px;
-  color: #444444;
-  opacity: 0.04;
 }
 .footer-contact a:hover{
   text-decoration: underline;
