@@ -719,9 +719,6 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
-}
-
-.featured-services .title a {
   color: #111;
 }
 
@@ -731,7 +728,7 @@ section {
   margin-bottom: 0;
 }
 
-.featured-services .icon-box:hover .title a, .featured-services .icon-box:hover .description {
+.featured-services .icon-box:hover .title, .featured-services .icon-box:hover .description {
   color: #fff;
 }
 
@@ -1222,4 +1219,9 @@ form{
 
 .modal-card:hover .card-title.text-primary, .modal-card:hover .card-text {
   color: white !important;
+}
+.modal-header button {
+  position: absolute;
+  right: 18px;
+  top: 24px;
 }
