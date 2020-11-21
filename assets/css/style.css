@@ -1158,6 +1158,7 @@ form{
 #footer .copyright {
   text-align: center;
   float: left;
+  margin-top: 5px;
 }
 .footer-contact a:hover{
   text-decoration: underline;
@@ -1177,7 +1178,6 @@ form{
 
 .modal-card:hover{
   transform: scale(1.03);
-  cursor: pointer;
 }
 .modal-card::before {
   content: '';

@@ -112,8 +112,8 @@
     </section>
 
     <!-- ======= Featured Services Section ======= -->
-    <section id="featured-services" class="featured-services">
-      <div class="container" data-aos="fade-up" style="max-width: 90%;">
+    <section id="services" class="featured-services">
+      <div class="container" data-aos="fade-up" style="max-width: 80%;">
         <div class="section-title"><h3>Services</h3></div>
         <div class="row">
           <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-toggle="modal" data-target="#webDevModal">
@@ -125,7 +125,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-toggle="modal" data-target="#digidatMarketingModal">
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-toggle="modal" data-target="#digitalMarketingModal">
             <div class="icon-box" data-aos="fade-up">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4 class="title"><a href="">Digital Marketing</a></h4>
@@ -134,7 +134,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-toggle="modal" data-target="#retainStoreModal">
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-toggle="modal" data-target="#retailStoreModal">
             <div class="icon-box" data-aos="fade-up">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4 class="title"><a href="">Retail Store management</a></h4>
@@ -275,15 +275,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#service1">Big Data Analysis</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#service2">Marketing Solutions</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#service3">Product Packaging and Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#service4">Retail Store Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#service5">SEO</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#service6">Content writing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#service7">Digital marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#service8">HR Solutions</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#service9">Advertising</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#service1" data-toggle="modal" data-target="#webDevModal">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#service2" data-toggle="modal" data-target="#digitalMarketingModal">Digital Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#service3" data-toggle="modal" data-target="#retailStoreModal">Retail Store management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#service4" data-toggle="modal" data-target="#marketResearchModal">Market research</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#service5" data-toggle="modal" data-target="#packagingModal">Packaging and design</a></li>
             </ul>
           </div>
 
@@ -313,6 +309,8 @@
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- modals -->
+
+  <!-- web dev modal -->
   <div class="modal fade" id="webDevModal" tabindex="-1" aria-labelledby="webDevModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content">
@@ -345,6 +343,182 @@
                 <div class="card-body">
                   <h5 class="card-title text-primary">Content Writing</h5>
                   <p class="card-text">Content writing is the process of planning, writing and editing web content, typically for digital marketing purposes. It can include writing blog posts and articles.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- digitalMarketingModal -->
+  <div class="modal fade" id="digitalMarketingModal" tabindex="-1" aria-labelledby="digitalMarketingModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title col-12 text-center" id="digitalMarketingModalLabel">Digital Marketing</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="modal-card card col-lg-6 col-md-12 mb-3 d-flex align-items-stretch mr-lg-2 ml-lg-2">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Social Media Marketing</h5>
+                  <p class="card-text">This Social Media Marketing service helps your company by use of social media platforms to connect with your audience to build your brand, increase sales, and drive website traffic. We used major social media platforms (at the moment) are Facebook, Instagram, Twitter and LinkedIn.
+                  </p>
+                </div>
+              </div>
+              <br>
+              <div class="modal-card card col-lg-5 col-md-12 mb-3 d-flex align-items-stretch mr-lg-2 ml-lg-2">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Email marketing</h5>
+                  <p class="card-text">This Email marketing service is used to send commercial message, advertisements, request business, or solicit sales or donations typically to a group of people, using email.
+                  </p>
+                </div>
+              </div>
+              <br>
+              <div class="modal-card card col-lg-6 col-md-12 mb-3 d-flex align-items-stretch mr-lg-2 ml-lg-2">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Marketing Campaign design</h5>
+                  <p class="card-text">This Marketing campaigns service helps to promote products through different types of media, such as radio, print, and online platforms.
+                  </p>
+                </div>
+              </div>
+              <br>
+              <div class="modal-card card col-lg-5 col-md-12 mb-3 d-flex align-items-stretch mr-lg-2 ml-lg-2">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">E-commerce marketing</h5>
+                  <p class="card-text">This Ecommerce marketing service helps your company to drive traffic to your online store, converting that traffic into paying customers, and retaining those customers post-purchase.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- retailStoreModal -->
+  <div class="modal fade" id="retailStoreModal" tabindex="-1" aria-labelledby="retailStoreModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title col-12 text-center" id="retailStoreModalLabel">Retail Store management</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="modal-card card col-lg-5 col-md-12 mb-3 d-flex align-items-stretch mr-lg-2 ml-lg-2">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Retail store tie-up</h5>
+                  <p class="card-text">This service includes tie-ups with local retail shops for your offline as well as online business.
+                  </p>
+                </div>
+              </div>
+              <br>
+              <div class="modal-card card col-lg-6 col-md-12 mb-3 d-flex align-items-stretch mr-lg-2 ml-lg-2">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Retail store management</h5>
+                  <p class="card-text">This Retail management service includes all the steps required to bring the customers into the store and fulfill their buying needs such as Design, location, inventory consultation, etc
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- marketResearchModal -->
+  <div class="modal fade" id="marketResearchModal" tabindex="-1" aria-labelledby="marketResearchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title col-12 text-center" id="marketResearchModalLabel">Market research</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="modal-card card col-lg-6 col-md-12 mb-3 d-flex align-items-stretch mr-lg-2 ml-lg-2">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Surveys</h5>
+                  <p class="card-text">We provide survey method to collect data from a predefined group of respondents to gain information and insights into various topics of interest which helps clients for better decision making.
+                  </p>
+                </div>
+              </div>
+              <br>
+              <div class="modal-card card col-lg-5 col-md-12 mb-3 d-flex align-items-stretch mr-lg-2 ml-lg-2">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Data analysis</h5>
+                  <p class="card-text">We helps clients in a process of inspecting, cleansing, transforming and modeling data of their customers with the goal of discovering useful information, informing conclusions and supporting decision-making.
+                  </p>
+                </div>
+              </div>
+              <br>
+              <div class="modal-card card col-lg-6 col-md-12 mb-3 d-flex align-items-stretch mr-lg-2 ml-lg-2">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Strategy making</h5>
+                  <p class="card-text">We helps organization to develop new strategy and ensures that the defined strategy becomes a reality rather than just an abstract wish list. It involves not only coming up with a strategy but also planning how to execute it and adjusting to unexpected events.
+                  </p>
+                </div>
+              </div>
+              <br>
+              <div class="modal-card card col-lg-5 col-md-12 mb-3 d-flex align-items-stretch mr-lg-2 ml-lg-2">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Google analytics</h5>
+                  <p class="card-text">We provide Google Analytics service that tracks and reports website traffic. It helps to measure your advertising ROI as well as track your Flash, video, and social networking sites and applications.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- packagingModal -->
+  <div class="modal fade" id="packagingModal" tabindex="-1" aria-labelledby="packagingModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title col-12 text-center" id="packagingModalLabel">Packaging and design</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="modal-card card col-lg-6 col-md-12 mb-3 d-flex align-items-stretch mr-lg-2 ml-lg-2">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Graphic design</h5>
+                  <p class="card-text">We provide Graphic design service by professionals to create visual content to communicate messages. We work with clients to customize a new product created based on customer needs.
                   </p>
                 </div>
               </div>
