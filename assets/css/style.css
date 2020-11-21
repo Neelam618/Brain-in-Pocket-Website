@@ -689,7 +689,7 @@ section {
 .featured-services .icon-box::before {
   content: '';
   position: absolute;
-  background: #cbe0fb;
+  background: #5814a6;
   right: 0;
   left: 0;
   bottom: 0;
@@ -699,7 +699,7 @@ section {
 }
 
 .featured-services .icon-box:hover::before {
-  background: #106eea;
+  background: #5814a6;
   top: 0;
   border-radius: 0px;
 }
@@ -711,14 +711,14 @@ section {
 .featured-services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #106eea;
+  color: #5814a6;
   transition: all 0.3s ease-in-out;
 }
 
 .featured-services .title {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 28px;
   color: #111;
 }
 
@@ -1192,8 +1192,8 @@ form{
 }
 
 /* Modal */
-.modal-card {
-
+.modal {
+z-index: 9999;
 }
 
 .modal-card:hover{
