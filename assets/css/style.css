@@ -543,6 +543,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 80%;
     margin:0 auto;
   }
+  #services .container {
+    max-width: 100% !important;
+  }
 }
 
 
@@ -666,26 +669,27 @@ section {
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
-/*.featured-services .icon-box {
+.featured-services .icon-box {
   padding: 30px;
   position: relative;
   overflow: auto;
   background: #fff;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-  /*transition: all 0.3s ease-in-out;*/
-  /*border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
   z-index: 1;
   transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
   transition-duration: 0.5s;
   transition-delay: 0s;
 }
 .featured-services .icon-box:hover{
-  transform: scale(1.2);
-}*/
-/*.featured-services .icon-box::before {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.featured-services .icon-box::before {
   content: '';
   position: absolute;
-  background: #cbe0fb;
+  background: #5814a6;
   right: 0;
   left: 0;
   bottom: 0;
@@ -695,29 +699,26 @@ section {
 }
 
 .featured-services .icon-box:hover::before {
-  background: #106eea;
+  background: #5814a6;
   top: 0;
   border-radius: 0px;
-}*/
+}
 
-/*.featured-services .icon {
+.featured-services .icon {
   margin-bottom: 15px;
 }
 
 .featured-services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #106eea;
+  color: #5814a6;
   transition: all 0.3s ease-in-out;
 }
 
 .featured-services .title {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
-}
-
-.featured-services .title a {
+  font-size: 26px;
   color: #111;
 }
 
@@ -725,15 +726,15 @@ section {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
-}*/
+}
 
-/*.featured-services .icon-box:hover .title a, .featured-services .icon-box:hover .description {
+.featured-services .icon-box:hover .title, .featured-services .icon-box:hover .description {
   color: #fff;
 }
 
 .featured-services .icon-box:hover .icon i {
   color: #fff;
-}*/
+}
 
 /*--------------------------------------------------------------
 # About
@@ -1157,6 +1158,7 @@ form{
 #footer .copyright {
   text-align: center;
   float: left;
+  margin-top: 5px;
 }
 .footer-contact a:hover{
   text-decoration: underline;
@@ -1167,4 +1169,59 @@ form{
     text-align: center;
     padding: 2px 0;
   }
+}
+
+
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  padding: 5px 0;
+  text-align: center;
+}
+
+.clients img {
+  /* max-width: 45%; */
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+}
+
+.clients img:hover {
+  transform: scale(1.15);
+}
+
+/* Modal */
+.modal {
+z-index: 9999;
+}
+
+.modal-card:hover{
+  transform: scale(1.03);
+}
+.modal-card::before {
+  content: '';
+  position: absolute;
+  background: #cbe0fb;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.1s;
+  z-index: -1;
+}
+
+.modal-card::before {
+  background: #106eea;
+  top: 0;
+  border-radius: 0px;
+}
+
+.modal-card:hover .card-title.text-primary, .modal-card:hover .card-text {
+  color: white !important;
+}
+.modal-header button {
+  position: absolute;
+  right: 18px;
+  top: 24px;
 }
