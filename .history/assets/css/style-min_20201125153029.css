@@ -222,10 +222,7 @@ h6 {
         width: 100px;
         /* padding: 7px */
     }
-    #header .container-fluid {
-        height: 120px;
-    }
-    .container-fluid {
+    #header .container-fluid .container-fluid {
         padding-left: 0
     }
     #header {

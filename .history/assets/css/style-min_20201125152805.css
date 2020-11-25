@@ -212,6 +212,7 @@ h6 {
 @media (max-width:1439px) {
     .logo-img {
         width: 120px;
+        /* height: 120px; */
         margin-bottom: -15px
     }
 }
@@ -221,9 +222,6 @@ h6 {
         margin: 0;
         width: 100px;
         /* padding: 7px */
-    }
-    #header .container-fluid {
-        height: 120px;
     }
     .container-fluid {
         padding-left: 0
