@@ -195,7 +195,7 @@ h6 {
     left: 0;
     margin-bottom: -60px;
     padding-top: 25px;
-    box-shadow: gray 1.5px 1.5px 3.5px;
+    box-shadow: gray;
 }
 
 #header .container-fluid {
@@ -220,7 +220,7 @@ h6 {
     .logo-img {
         margin: 0;
         width: 100px;
-        /* padding: 7px */
+        padding: 7px
     }
     .container-fluid {
         padding-left: 0
