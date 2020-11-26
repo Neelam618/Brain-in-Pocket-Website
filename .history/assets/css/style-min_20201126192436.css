@@ -1166,9 +1166,8 @@ form {
 
 #footer .copyright {
     text-align: center;
-    /* padding-top: 25px; */
-    /* float: left; */
-    margin-top: 25px
+    float: left;
+    margin-top: 5px
 }
 
 .footer-contact a:hover {

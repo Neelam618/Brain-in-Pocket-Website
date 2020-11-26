@@ -94,17 +94,15 @@ h6 {
 #topbar,
 .back-to-top i {
     background: #5814a6;
-    /* background: #c67712; */
+    height: 40px;
     color: #fff
 }
 
 .back-to-top i {
-    background: #c67712;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 24px;
-    height: 40px;
     width: 40px;
     border-radius: 4px;
     transition: all .4s
@@ -112,7 +110,6 @@ h6 {
 
 .back-to-top i:hover {
     background: #440c85;
-    /* background: #c67712; */
     color: #fff
 }
 
@@ -123,8 +120,6 @@ h6 {
 }
 
 #topbar {
-    background: #c67712;
-    height: 40px;
     font-size: 14px;
     transition: all .5s
 }
@@ -153,33 +148,14 @@ h6 {
 }
 
 #topbar .social-links a {
-    /* color: rgba(255, 255, 255, .8); */
-    /* padding-left: 15px; */
-    /* line-height: 1px; */
-    color: #fff;
+    color: rgba(255, 255, 255, .8);
+    padding-left: 15px;
     display: inline-block;
-    transition: .3s;
-    border-radius: 50%;
-    /* background: #fff; */
-    height: 25px;
-    width: 25px;
-    margin-left: 5px
+    line-height: 1px;
+    transition: .3s
 }
 
-
-/* Added */
-
-.icofont-facebook::before,
-.icofont-instagram::before,
-.icofont-linkedin::before {
-    margin-left: 5px;
-}
-
-#topbar .social-links a:hover {
-    color: #c67712;
-    background: #fff;
-}
-
+#topbar .social-links a:hover,
 .featured-services .icon-box:hover .description,
 .featured-services .icon-box:hover .icon i,
 .featured-services .icon-box:hover .title,
@@ -217,18 +193,13 @@ h6 {
 .logo-img {
     position: relative;
     left: 0;
-    width: 130px;
-    height: 120px;
-    margin-top: -50px;
-    /* padding: 5px; */
-    /* margin-bottom: -60px; */
+    margin-bottom: -60px;
     /* padding-top: 25px; */
-    /* box-shadow: gray 1.5px 1.5px 3.5px; */
+    box-shadow: gray 1.5px 1.5px 3.5px;
 }
 
 #header .container-fluid {
-    /* height:90px */
-    height: 110px
+    height: 90px
 }
 
 @media (max-width:1560px) {
@@ -441,7 +412,7 @@ section {
 
 #hero {
     width: 100%;
-    height: 85vh;
+    height: 75vh;
     background: url(../img/hero-bg.jpg)center;
     background-attachment: fixed;
     background-size: cover;
@@ -460,8 +431,7 @@ section {
 
 #hero .container {
     position: relative;
-    margin-top: 100px;
-    /* padding-top: 132px */
+    padding-top: 132px
 }
 
 #hero h1,
@@ -741,7 +711,6 @@ section {
 }
 
 .featured-services .icon {
-    text-align: center;
     margin-bottom: 15px
 }
 
@@ -754,7 +723,6 @@ section {
 }
 
 .featured-services .title {
-    text-align: center;
     font-weight: 700;
     margin-bottom: 15px;
     font-size: 26px;
@@ -833,10 +801,9 @@ section {
     left: 50%;
     transform: translateX(-50%);
     font-size: 20px;
-    /* background: #5814a6; */
-    background: #c67712;
+    background: #5814a6;
+    /* background: #c67712; */
     color: #fff;
-    padding: 12px;
     border-radius: 50px;
     border: 5px solid #fff
 }
@@ -1166,9 +1133,8 @@ form {
 
 #footer .copyright {
     text-align: center;
-    /* padding-top: 25px; */
-    /* float: left; */
-    margin-top: 25px
+    float: left;
+    margin-top: 5px
 }
 
 .footer-contact a:hover {

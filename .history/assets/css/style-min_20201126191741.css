@@ -156,30 +156,21 @@ h6 {
     /* color: rgba(255, 255, 255, .8); */
     /* padding-left: 15px; */
     /* line-height: 1px; */
-    color: #fff;
+    color: #c67127;
     display: inline-block;
     transition: .3s;
     border-radius: 50%;
-    /* background: #fff; */
+    background: #fff;
     height: 25px;
     width: 25px;
     margin-left: 5px
 }
 
-
-/* Added */
-
-.icofont-facebook::before,
-.icofont-instagram::before,
-.icofont-linkedin::before {
-    margin-left: 5px;
+.icofont-facebook::before {
+    margin
 }
 
-#topbar .social-links a:hover {
-    color: #c67712;
-    background: #fff;
-}
-
+#topbar .social-links a:hover,
 .featured-services .icon-box:hover .description,
 .featured-services .icon-box:hover .icon i,
 .featured-services .icon-box:hover .title,
@@ -1166,9 +1157,8 @@ form {
 
 #footer .copyright {
     text-align: center;
-    /* padding-top: 25px; */
-    /* float: left; */
-    margin-top: 25px
+    float: left;
+    margin-top: 5px
 }
 
 .footer-contact a:hover {

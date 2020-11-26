@@ -153,10 +153,10 @@ h6 {
 }
 
 #topbar .social-links a {
-    /* color: rgba(255, 255, 255, .8); */
+    color: rgba(255, 255, 255, .8);
     /* padding-left: 15px; */
     /* line-height: 1px; */
-    color: #fff;
+    /* color: #fff; */
     display: inline-block;
     transition: .3s;
     border-radius: 50%;
@@ -176,10 +176,10 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-    color: #c67712;
-    background: #fff;
+    color: #c;
 }
 
+#topbar .social-links a:hover,
 .featured-services .icon-box:hover .description,
 .featured-services .icon-box:hover .icon i,
 .featured-services .icon-box:hover .title,
@@ -1166,9 +1166,8 @@ form {
 
 #footer .copyright {
     text-align: center;
-    /* padding-top: 25px; */
-    /* float: left; */
-    margin-top: 25px
+    float: left;
+    margin-top: 5px
 }
 
 .footer-contact a:hover {

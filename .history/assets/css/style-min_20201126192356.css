@@ -180,6 +180,7 @@ h6 {
     background: #fff;
 }
 
+#topbar .social-links a:hover,
 .featured-services .icon-box:hover .description,
 .featured-services .icon-box:hover .icon i,
 .featured-services .icon-box:hover .title,
@@ -1166,9 +1167,8 @@ form {
 
 #footer .copyright {
     text-align: center;
-    /* padding-top: 25px; */
-    /* float: left; */
-    margin-top: 25px
+    float: left;
+    margin-top: 5px
 }
 
 .footer-contact a:hover {
