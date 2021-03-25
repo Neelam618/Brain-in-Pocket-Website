@@ -754,8 +754,8 @@ section {
     background-color: transparent !important
 }
 
-.testimonials .owl-dots {
-    display: none
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block;
 }
 
 .testimonials button:focus {
