@@ -42,7 +42,7 @@ h6 {
     position: fixed;
     top: calc(50% - 30px);
     left: calc(50% - 30px);
-    border: 6px solid #5814a6;
+    border: 6px solid #172a39;
     border-top-color: #e2eefd;
     border-radius: 50%;
     width: 60px;
@@ -90,7 +90,7 @@ h6 {
     width: 40px;
     height: 40px;
     border-radius: 4px;
-    background: #5814a6;
+    background: #172a39;
     color: #fff;
     transition: all 0.4s;
 }
@@ -117,7 +117,7 @@ h6 {
   --------------------------------------------------------------*/
 
 #topbar {
-    background: #5814a6;
+    background: #172a39;
     height: 40px;
     font-size: 14px;
     transition: all 0.5s;
@@ -279,7 +279,7 @@ h6 {
 .nav-menu a {
     display: block;
     position: relative;
-    color: #5814a6;
+    color: #172a39;
     transition: 0.3s;
     font-size: 15px;
     font-weight: 600;
@@ -294,7 +294,7 @@ h6 {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #5814a6;
+    background-color: #172a39;
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -369,7 +369,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active>a,
 .mobile-nav li:hover>a {
-    color: #5814a6;
+    color: #172a39;
     text-decoration: none;
 }
 
@@ -486,7 +486,7 @@ h6 {
     border-radius: 4px;
     transition: 0.5s;
     color: #fff;
-    background: #5814a6;
+    background: #172a39;
 }
 
 #hero .btn-get-started:hover {
@@ -634,7 +634,7 @@ section {
 }
 
 .section-title h3 span {
-    color: #5814a6;
+    color: #172a39;
 }
 
 .section-title p {
@@ -830,7 +830,7 @@ section {
 .featured-services .icon-box::before {
     content: '';
     position: absolute;
-    background: #5814a6;
+    background: #172a39;
     right: 0;
     left: 0;
     bottom: 0;
@@ -840,7 +840,7 @@ section {
 }
 
 .featured-services .icon-box:hover::before {
-    background: #5814a6;
+    background: #172a39;
     top: 0;
     border-radius: 0px;
 }
@@ -852,7 +852,7 @@ section {
 .featured-services .icon i {
     font-size: 48px;
     line-height: 1;
-    color: #5814a6;
+    color: #172a39;
     transition: all 0.3s ease-in-out;
 }
 
@@ -954,7 +954,7 @@ section {
     left: 50%;
     transform: translateX(-50%);
     font-size: 20px;
-    background: #5814a6;
+    background: #172a39;
     padding: 12px;
     color: #fff;
     border-radius: 50px;
@@ -1085,10 +1085,10 @@ form {
 
 .contact .info-box i {
     font-size: 32px;
-    color: #5814a6;
+    color: #172a39;
     border-radius: 50%;
     padding: 8px;
-    border: 2px dotted #5814a6;
+    border: 2px dotted #172a39;
 }
 
 .contact .info-box h3 {
@@ -1181,7 +1181,7 @@ form {
 }
 
 .contact .php-email-form button[type="submit"] {
-    background: #5814a6;
+    background: #172a39;
     border: 0;
     padding: 10px 30px;
     color: #fff;
@@ -1303,13 +1303,13 @@ form {
 
 #footer .footer-top .footer-links ul a:hover {
     text-decoration: none;
-    color: #5814a6;
+    color: #172a39;
 }
 
 #footer .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #5814a6;
+    background: #172a39;
     color: #fff;
     line-height: 1;
     padding: 8px 0;
