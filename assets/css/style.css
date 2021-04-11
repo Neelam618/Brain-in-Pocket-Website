@@ -604,7 +604,8 @@ section {
 }
 
 .section-bg {
-    background-color: #f5ebeb;
+    background-color: #172a39;
+    color: white;
 }
 
 .section-title {
@@ -643,13 +644,13 @@ section {
 
 @media (min-width: 1024px) {
     .section-title p {
-        width: 70%;
+        width: 90%;
     }
 }
 
 @media (max-width: 576px) {
     .section-title p {
-        font-size: 13px;
+        font-size: 14px;
     }
     .section-title h3 {
         font-size: 26px;
@@ -724,7 +725,7 @@ section {
     color: #000;
     overflow-x: hidden;
     height: 100%;
-    background-image: linear-gradient(180deg, #1E88E5, #fff);
+    background-image: linear-gradient(180deg, #172a39, #fff);
     background-repeat: no-repeat
 }
 

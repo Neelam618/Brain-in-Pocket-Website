@@ -11,7 +11,7 @@ Deployed by using Netlify.
 Install dependancy: `npm install -g csso-cli`
 
 Git command used to minify CSS source file into minified file:
-`csso style.css --output style-min.css`
+`csso assets/css/style.css --output assets/css/style-min.css`
 
 Git command used to automatically modify changes from source file to its minified file:
-`csso style.css --output style-min.css --watch`
+`csso  assets/css/style.css --output  assets/css/style-min.css --watch`
