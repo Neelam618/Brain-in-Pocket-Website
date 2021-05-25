@@ -1,6 +1,5 @@
 # Brain-in-Pocket-Website
-Staging link: https://neelam618.github.io/Brain-in-Pocket-Website/
-Live: https://brain2pocket.in/
+Live link: https://neelam618.github.io/Brain-in-Pocket-Website/
 
 This website is about the startup called Brain2pocket for professional business solutions. It showcases different services they offer.
 
